@@ -46,7 +46,7 @@ const Info: FC<InfoProps> = ({ data }) => {
             onClick={onAddToCart}
             className="flex items-center gap-x-3 text-white"
           >
-            Add to card
+            Přidat do košíku
             <ShoppingCart />
           </Button>
         </div>
