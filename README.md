@@ -1,34 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 13 E-Commerce Frontend
 
-## Getting Started
+This repository hosts the frontend code for a simple e-commerce website built on Next.js 13. This frontend is designed to interface with the [Next.js 13 CMS Backend](https://github.com/minlost/next13-CMS-backend).
 
-First, run the development server:
+## Table of Contents
+
+- [Backend Repository](#backend-repository)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributions](#contributions)
+- [License](#license)
+
+## Backend Repository
+
+This frontend project is designed to work in conjunction with the [Next.js 13 CMS Backend](https://github.com/minlost/next13-CMS-backend). Please refer to its documentation for setup and API details.
+
+## Technologies
+
+- **Frontend Framework**: Next.js 13
+- **State Management**: Zustand
+- **Data Validation**: Zod
+- **Payment Processing**: Stripe
+- **Type Checking**: TypeScript
+
+## Installation
+
+To get started, clone the repository and install the necessary dependencies:
+
+```bash
+npm install
+# or
+yarn install
+
+```
+
+## Environment Variables
+
+Copy the .env.example file to .env.local and populate it with your API keys.
+
+## Usage
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to http://localhost:3000 to see the app in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Shopping Cart
+Add items to cart
+Remove items from cart
+View cart summary
 
-## Learn More
+### Stripe Payments
 
-To learn more about Next.js, take a look at the following resources:
+Checkout with Stripe
+Secure payment processing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Product Filters
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Filter products by categories
+Sort products by price, name, etc.
 
-## Deploy on Vercel
+## Contributions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please fork the repository and create a pull request for any enhancements or bug fixes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Screenshots
+
+![Screenshot 1](https://iili.io/HyhPjHb.png)
+![Screenshot 2](https://iili.io/HyhiuzQ.png)
+![Screenshot 3](https://iili.io/HyhiY11.png)
+
+## License
+
+This project is open-source and available under the MIT License. See the LICENSE file for more details.
