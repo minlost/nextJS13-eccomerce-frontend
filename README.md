@@ -74,6 +74,8 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## Screenshots
 
 ![Screenshot 1](https://iili.io/HyhPjHb.png)
+![Screenshot 2](https://iili.io/HyhLRl1.png)
+![Screenshot 3](https://iili.io/HyhLiOb.png)
 
 ## License
 
